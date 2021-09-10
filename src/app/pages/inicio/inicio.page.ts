@@ -20,7 +20,7 @@ export class InicioPage implements OnInit {
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'accessibility-outline',
+      icon: 'alert-circle-outline',
       name: 'Alert',
       redirectTo: '/alert'
     }
