@@ -15,7 +15,7 @@ export class InicioPage implements OnInit {
 
   components: Componente[] = [
     {
-      icon: 'add-circle-outline',
+      icon: 'list-circle-outline',
       name: 'Action Sheet',
       redirectTo: '/action-sheet'
     },

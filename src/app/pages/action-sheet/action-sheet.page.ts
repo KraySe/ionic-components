@@ -8,7 +8,7 @@ import { ActionSheetController } from '@ionic/angular';
 })
 export class ActionSheetPage implements OnInit {
 
-  constructor(public actionSheetController: ActionSheetController) { }
+  constructor(private actionSheetController: ActionSheetController) { }
 
   ngOnInit() {
   }
