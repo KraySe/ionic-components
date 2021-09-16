@@ -13,19 +13,23 @@ const routes: Routes = [
   },
   {
     path: 'alert',
-    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
+    loadChildren: () => import('./pages/alert/alert.module').then(m => m.AlertPageModule)
   },
   {
     path: 'action-sheet',
-    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
+    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then(m => m.ActionSheetPageModule)
   },
   {
     path: 'avatar',
-    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
+    loadChildren: () => import('./pages/avatar/avatar.module').then(m => m.AvatarPageModule)
   },
   {
     path: 'button',
-    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
+    loadChildren: () => import('./pages/button/button.module').then(m => m.ButtonPageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then(m => m.CardPageModule)
   },
 ];
 
