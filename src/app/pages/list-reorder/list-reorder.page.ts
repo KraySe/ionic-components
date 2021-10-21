@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListReorderPage implements OnInit {
 
+  // create btn
+  reorderIsDisabled: boolean = false;
+
   personajes: string[] = [
     'Aquaman',
     'Superman',
@@ -30,6 +33,10 @@ export class ListReorderPage implements OnInit {
     event.detail.complete();
 
     console.log(this.personajes);
+  }
+
+  public toggleReorder() {
+    this.reorderIsDisabled = !this.reorderIsDisabled;
   }
 
 }
