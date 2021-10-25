@@ -9,6 +9,7 @@ import { DataService } from '../../services/data.service';
 export class SearchPage implements OnInit {
 
   public albums: any[];
+  public textSearch: string = '';
 
   constructor(
     private dataService: DataService
@@ -24,7 +25,8 @@ export class SearchPage implements OnInit {
 
   public onSearchChange(ev) {
 
-    console.log(ev);
+    // console.log(ev);
+    this.textSearch = ev.detail.value;
 
 
   }
