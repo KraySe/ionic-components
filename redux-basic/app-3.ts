@@ -3,10 +3,15 @@ import { contadorReducer } from './contador/contador.reducer.ts';
 import { incrementAction, multiplyAction } from './contador/contador.actions.ts';
 
 class Store<T> {
+
+    // private state: T;
+
     constructor(
         private reducer: Reducer<T>,
         private state: T
-    ) { }
+    ) {
+        // this.state = state;
+    }
 
     public getState() {
         return this.state;

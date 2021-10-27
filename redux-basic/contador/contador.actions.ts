@@ -1,4 +1,4 @@
-import { Action } from '../ngrx-fake/ngrx.ts';
+import { Action } from '../ngrx-fake/ngrx';
 
 export const incrementAction: Action = {
     type: 'INCREMENT'
