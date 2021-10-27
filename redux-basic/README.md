@@ -64,3 +64,18 @@ https://redux.js.org/
 Traducción bastante buena
 
 https://es.redux.js.org/
+
+---
+
+To execute project and testing code
+
+´´´typescript
+npm i
+
+````
+
+from terminal:
+
+```typescript
+tx-node app-{number}.ts
+````

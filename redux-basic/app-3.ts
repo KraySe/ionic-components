@@ -1,6 +1,6 @@
-import { Action, Reducer } from './ngrx-fake/ngrx.ts';
-import { contadorReducer } from './contador/contador.reducer.ts';
-import { incrementAction, multiplyAction } from './contador/contador.actions.ts';
+import { Action, Reducer } from './ngrx-fake/ngrx';
+import { contadorReducer } from './contador/contador.reducer';
+import { incrementAction, multiplyAction } from './contador/contador.actions';
 
 class Store<T> {
 

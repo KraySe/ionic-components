@@ -1,5 +1,5 @@
-import { decrementAction, divideAction, incrementAction, multiplyAction, resetAction } from "./contador/contador.actions.ts";
-import { Action } from "./ngrx-fake/ngrx.ts";
+import { decrementAction, divideAction, incrementAction, multiplyAction, resetAction } from "./contador/contador.actions";
+import { Action } from "./ngrx-fake/ngrx";
 
 function reducer(state = 10, action: Action) {
     switch (action.type) {
